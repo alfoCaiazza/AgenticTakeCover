@@ -1,0 +1,11 @@
+# Virtual environment folder
+.venv
+
+# VizDoom GitHub repo
+github
+
+# Training logs and checkpoints
+train/*
+logs/*
+models/*
+_vizdoom.ini
