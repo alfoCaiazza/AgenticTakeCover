@@ -7,5 +7,5 @@ github
 # Training logs and checkpoints
 train/*
 logs/*
-models/*
+# models/*
 _vizdoom.ini
