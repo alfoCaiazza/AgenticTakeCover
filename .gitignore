@@ -9,3 +9,7 @@ train/*
 logs/*
 models/*
 _vizdoom.ini
+
+# Ignore any other files that may be generated
+*.log
+ollama_initialization.ipynb
