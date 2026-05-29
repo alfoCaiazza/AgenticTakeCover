@@ -2,12 +2,9 @@
 
 Questo repository contiene il codice per la sperimentazione di architetture ibride tra **Deep Reinforcement Learning (DRL)** e **Large Language Models (LLM)** nello scenario *TakeCover* di [ViZDoom]. Il progetto confronta cinque varianti di agente, sviluppando, oltre ad un agente di RL puro, 2 varianti, rispettivamente reward e policy diretta.
 
----
-
 ## Scenario
 
 **TakeCover** è uno scenario di ViZDoom in cui l'agente deve sopravvivere il più a lungo possibile evitando i proiettili lanciati dai nemici. Lo spazio delle azioni è binario (movimento a sinistra / destra) e l'osservazione è visiva. La difficoltà del task risiede nella reattività richiesta: le decisioni devono essere prese a ogni frame, rendendo la latenza di inferenza un fattore critico.
----
 
 ## Agenti
 
@@ -22,8 +19,6 @@ Il reward di training nativo viene sostituito da un segnale prodotto da un LLM l
 
 ### LLM-Driven Policy (Llama / Qwen)
 L'LLM sostituisce direttamente la policy di PPO: a ogni step riceve una descrizione testuale dello stato e seleziona l'azione da eseguire. 
-
----
 
 ## Setup
 
@@ -49,8 +44,6 @@ Nel file di valutazione, verificare che `CONFIG_PATH` punti correttamente al fil
 CONFIG_PATH = './github/ViZDoom/scenarios/take_cover.cfg'
 ```
 
----
-
 ## Valutazione
 
 Per riprodurre i risultati runnare il notebook `Evaluate_RL_Variants.ipynb`. Il notebook:
@@ -58,8 +51,6 @@ Per riprodurre i risultati runnare il notebook `Evaluate_RL_Variants.ipynb`. Il 
 2. Calibra la soglia di sopravvivenza sul Baseline (100 episodi)
 3. Valuta ciascun agente su 1.000 episodi indipendenti
 4. Stampa la tabella comparativa e salva i grafici in `logs/`
-
----
 
 ## Citazione
 
