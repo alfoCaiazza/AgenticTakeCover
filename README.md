@@ -1,7 +1,3 @@
-Sulla base del codice che hai condiviso e dei risultati ottenuti, ecco un README completo e professionale:
-
----
-
 # VizDoom — TakeCover
 
 Questo repository contiene il codice per la sperimentazione di architetture ibride tra **Deep Reinforcement Learning (DRL)** e **Large Language Models (LLM)** nello scenario *TakeCover* di [ViZDoom]. Il progetto confronta cinque varianti di agente, sviluppando, oltre ad un agente di RL puro, 2 varianti, rispettivamente reward e policy diretta.
