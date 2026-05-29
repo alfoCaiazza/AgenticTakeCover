@@ -53,9 +53,6 @@ Per riprodurre i risultati runnare il notebook `Evaluate_RL_Variants.ipynb`. Il 
 4. Stampa la tabella comparativa e salva i grafici in `logs/`
 
 ## Citazione
-
-Se utilizzi questo codice in una pubblicazione, cita il repository e lo scenario originale:
-
 ```
 Kempka et al., "ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning", IEEE CIG 2016.
 ```
