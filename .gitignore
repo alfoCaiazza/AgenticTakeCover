@@ -7,7 +7,6 @@ github
 # Training logs and checkpoints
 train/*
 logs/*
-models/*
 _vizdoom.ini
 
 # Ignore any other files that may be generated
